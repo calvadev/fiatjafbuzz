@@ -1,2 +1,3 @@
 # FiatjafBuzz
-Post a GM for Fiatjaf
+
+Post a GM for fiatjaf

@@ -1,0 +1,13 @@
+modules = ["nodejs-20"]
+run = "npm run dev"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+build = ["sh", "-c", "npm run build"]
+deploymentTarget = "static"
+publicDir = "public"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
